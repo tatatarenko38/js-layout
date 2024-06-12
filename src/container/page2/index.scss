@@ -1,0 +1,50 @@
+@use '../../style/layout.scss' as s;
+
+.tabs {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	gap: 0;
+
+
+	&__button {
+		text-align: center;
+		width: 100%;
+		border-bottom: 3px solid #888888;
+		color: #888888;
+		padding-bottom: 14px;
+		font-size: 16px;
+
+		&:hover {
+			color: #121212;
+			border-bottom: 3px solid #121212;
+		}
+	}
+}
+
+.info__title {
+	font-size: 18px;
+	color: #121212;
+	font-weight: 700;
+
+}
+
+.info__list {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
+
+.info__p {
+	font-size: 14px;
+	color: #363636;
+	line-height: 150%;
+}
+
+.info__button {
+	background-color: #f46f17;
+	color: white;
+	border-radius: 8px;
+	font-size: 14px;
+	padding: 18px 0;
+}
